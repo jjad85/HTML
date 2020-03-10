@@ -1,0 +1,29 @@
+<HTML>
+	<HEAD>
+		<TITLE>EGL - Login</TITLE>
+		<link rel="stylesheet" href="./css/style.css">
+	</HEAD>
+	<BODY>
+    	<div id="divBody" class="divBodyLogin">
+            <div id="headboard">
+                <img id="imgDivHead" src="./images/login.png" >
+            </div>
+            <div id="form">
+                <form id="form-login" action="" method="post" autocomplete="off">
+                    <input name="username" type="text" id="username" placeholder="Enter Username" autofocus="" required="" class="inputText">
+                    <input name="password" type="password" id="password" placeholder="Enter Password" required="" class="inputText">
+                    <p id="remember"><input type="checkbox" checked="checked" name="remember" id="remember">Remember me</p>
+                    <div class="posLeft">
+						<p id="bot"><button onclick="window.location='./register.html'" id="btnRegister" name="btnRegister" class="button">Register</p>
+					</div>
+					<div class="posRight">
+						<p id="bot"><input type="submit" id="btnLogin" name="btnLogin" value="Login" class="button"></p>
+					</div>
+                </form>
+            </div>
+            <div class="footer">
+                <span class="psw"><a id="forgot" href="#">Forgot password?</a></span>
+            </div>
+		</div>
+	</BODY>
+</HTML>
